@@ -1,7 +1,10 @@
+// (c) 2025 PatitosEnLinea Baltasar MIT License <jbgarcia@uvigo.es>
 
-using System.Diagnostics;
 
 namespace PatitosEnLinea.Core;
+
+
+using System.Diagnostics;
 
 
 public class Patito: Pato

@@ -1,10 +1,13 @@
+// (c) 2025 PatitosEnLinea Baltasar MIT License <jbgarcia@uvigo.es>
+
+
+namespace PatitosEnLinea.Core;
+
 
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-
-namespace PatitosEnLinea.Core;
 
 
 public class MamaPato: Pato

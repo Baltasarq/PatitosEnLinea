@@ -1,3 +1,5 @@
+// (c) 2025 PatitosEnLinea Baltasar MIT License <jbgarcia@uvigo.es>
+
 
 namespace PatitosEnLinea.UI;
 

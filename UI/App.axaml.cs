@@ -1,8 +1,13 @@
+// (c) 2025 PatitosEnLinea Baltasar MIT License <jbgarcia@uvigo.es>
+
+
+namespace PatitosEnLinea.UI;
+
+
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace PatitosEnLinea.UI;
 
 public partial class App : Application
 {

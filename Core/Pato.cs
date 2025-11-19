@@ -1,17 +1,18 @@
+// (c) 2025 PatitosEnLinea Baltasar MIT License <jbgarcia@uvigo.es>
+
+
+namespace PatitosEnLinea.Core;
 
 
 using System;
 using System.Diagnostics;
-
-namespace PatitosEnLinea.Core;
 
 
 public class Pato
 {
     public Pato()
     {
-        this.Dir = new Random( DateTime.Now.Microsecond ).
-                            Next( 0, 360 );
+        this.Dir = new Random( DateTime.Now.Microsecond ).Next( 0, 360 );
     }
 
     public override string ToString()
