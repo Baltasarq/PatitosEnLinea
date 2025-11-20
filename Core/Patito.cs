@@ -7,8 +7,7 @@ namespace PatitosEnLinea.Core;
 using System.Diagnostics;
 
 
-public class Patito: Pato
-{
+public class Patito: Pato {
     private const int CAMBIO_DIR = 20;
     private const int TOLERANCIA = 30;
 
@@ -23,8 +22,6 @@ public class Patito: Pato
     /// <param name="fuerza">Fuerza entre 0 y 10.</param>
     public void RecibeMotivacion(int fuerza)
     {
-        int antesDir = this.Dir;
-
         Debug.Assert( fuerza >= 0 && fuerza < 10,
                     "fuerza incorrecta: " + fuerza );
 
@@ -34,7 +31,7 @@ public class Patito: Pato
 
         Trace.WriteLine( $"{this} motivado con fuerza {fuerza}" );
 
-        this.Dir = ( this.Dir 
+        this.Dir = ( this.Dir
                 + (int) ( ( fuerza / 10.0 ) * CAMBIO_DIR ) ) % 360;
 
         Trace.WriteLine( $"{this} tras ser motivado con fuerza {fuerza}" );

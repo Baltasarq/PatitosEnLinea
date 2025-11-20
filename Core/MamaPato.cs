@@ -10,8 +10,7 @@ using System.Diagnostics;
 using System.Linq;
 
 
-public class MamaPato: Pato
-{
+public class MamaPato: Pato {
     public MamaPato()
     {
         this._patitos = [];
@@ -22,6 +21,7 @@ public class MamaPato: Pato
         // get => new List<Patito>( this._patitos );
         get => this._patitos.AsReadOnly();
         set {
+            this._patitos.Clear();
             ( (List<Patito>) this._patitos ).AddRange( value );
         }
     }

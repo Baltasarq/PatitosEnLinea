@@ -8,8 +8,7 @@ using Avalonia.Controls;
 using PatitosEnLinea.Core;
 
 
-public class MainWindowCore
-{
+public class MainWindowCore {
     public MainWindowCore()
     {
         Trace.Listeners.Add( new ConsoleTraceListener() );

@@ -8,8 +8,7 @@ using System;
 using System.Diagnostics;
 
 
-public class Pato
-{
+public class Pato {
     public Pato()
     {
         this.Dir = new Random( DateTime.Now.Microsecond ).Next( 0, 360 );
