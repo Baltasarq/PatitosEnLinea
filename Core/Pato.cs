@@ -14,10 +14,7 @@ public class Pato {
         this.Dir = new Random( DateTime.Now.Microsecond ).Next( 0, 360 );
     }
 
-    public override string ToString()
-    {
-        return $"¡Cuac! {this.Dir}º";
-    }
+    public override string ToString() => $"¡Cuac! {this.Dir}º";
 
     public int Dir {
         get => field;

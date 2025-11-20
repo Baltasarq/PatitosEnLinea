@@ -38,10 +38,8 @@ public class Patito: Pato {
     }
 
     public bool EstaEnLineaCon(Pato pato)
-    {
-        return ( this.Dir >= ( pato.Dir - TOLERANCIA )
-              && this.Dir <= ( pato.Dir + TOLERANCIA ) );
-    }
+        =>  ( this.Dir >= ( pato.Dir - TOLERANCIA )
+           && this.Dir <= ( pato.Dir + TOLERANCIA ) );
 
     public override string ToString()
     {
