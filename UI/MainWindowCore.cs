@@ -38,7 +38,7 @@ public class MainWindowCore {
 
         for(int _ = 0; _ < 15; ++_ ) {
             mp.Motiva();
-            this._edLog.Text += mp.ToString() + "\n";
+            this._edLog.Text += mp + "\n";
         }
     }
 
